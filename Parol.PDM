@@ -1,0 +1,167 @@
+[Root]
+Most Recent Package=Standard Setup Package For Stop
+Most Recent Deploy=Stop Deploy
+
+[Deploy|Stop Deploy|Root]
+Package=Standard Setup Package For Stop
+Handler=PDWizard.FolderDplySubWiz
+Folder=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Deploy
+
+
+[Package|Standard Setup Package For Stop|VitekSoft]
+Icon1=ReadMe.txt
+Title1=ReadMe for Stop
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2=Parol.exe
+Title2=Stop
+StartIn2=$(WinSysPath)
+Key2=Icon1
+Icon3=Starting.reg
+Title3=Starting when start your sistem
+StartIn3=$(AppPath)
+Key3=Icon8
+
+[Package|Standard Setup Package For Stop|Softway]
+Icon1=Parol.exe
+Title1=Stop
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package For Stop|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Package
+
+[Package|Standard Setup Package For Stop|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package For Stop|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package For Stop|Files Found]
+
+[Package|Standard Setup Package For Stop|Files Released]
+Stop.reg=
+ReadMe.txt=
+Start.reg=
+Run.reg=
+
+[Package|Standard Setup Package For Stop|Missing Dependency Information]
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Registrations.exe=
+
+[Package|Standard Setup Package For Stop|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package For Stop|Files Added]
+e:\program files\microsoft visual studio\vb98\program files\parol\stop.reg=
+e:\program files\microsoft visual studio\vb98\program files\parol\readme.txt=
+e:\program files\microsoft visual studio\vb98\program files\parol\starting.reg=
+e:\program files\microsoft visual studio\vb98\program files\parol\registrations.exe=
+
+[Package|Standard Setup Package For Stop|Files Removed]
+e:\program files\microsoft visual studio\vb98\program files\parol\start.reg=
+e:\program files\microsoft visual studio\vb98\program files\parol\run.reg=
+
+[Package|Standard Setup Package For Stop|Files In Project]
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Parol.exe=Yes
+E:\WINDOWS\system32\msvbvm60.dll=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\WINDOWS\system32\SafeGuard.exe=Yes
+E:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Stop.reg=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\ReadMe.txt=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Starting.reg=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Registrations.exe=Yes
+
+[Package|Standard Setup Package For Stop|Configure Registry Files]
+Applicable=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Deploy\Stop.reg=Both
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Start.reg=Both
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Stop.reg=Register
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Run.reg=Both
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Starting.reg=Install
+
+[Package|Standard Setup Package For Stop|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package For Stop|Install Locations]
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Parol.exe=$(WinSysPath)
+E:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\SafeGuard.exe=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\WINDOWS\system32\SafeGuard.exe=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Deploy\ReadMe.txt=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Deploy\Stop.reg=$(AppPath)
+E:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Start.reg=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Stop.reg=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\ReadMe.txt=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Run.reg=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Starting.reg=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Registrations.exe=$(AppPath)
+
+[Package|Standard Setup Package For Stop|Configure Shared Files]
+Applicable=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Parol.exe=No
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Deploy\ReadMe.txt=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Deploy\Stop.reg=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Start.reg=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Stop.reg=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\ReadMe.txt=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Run.reg=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Starting.reg=No
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Registrations.exe=No
+
+[Package|Standard Setup Package For Stop|Distribution]
+Type=single
+Size=
+Title=Stop
+
+[Package|Standard Setup Package For Stop|Package]
+PackageFolder=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Package
+ProjectFolder=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol
+ServerSideCab=
+File1=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Package\setup.exe
+File2=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Package\Setup.Lst
+File3=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Parol\Package\Parol.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package For Stop|IconGroups]
+Group0=Stop
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Package For Stop|Stop]
+Icon1=ReadMe.txt
+Title1=ReadMe for Stop
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2=Registrations.exe
+Title2=Registrations.exe
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3=Starting.reg
+Title3=Starting.reg
+StartIn3=$(AppPath)
+Key3=Icon8
+Icon4=Parol.exe
+Title4=Parol.exe
+StartIn4=$(WinSysPath)
+Key4=Icon6

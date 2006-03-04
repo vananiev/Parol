@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\Stop\Default]
+"Ferst"="1"
+"Start"="0"
+
